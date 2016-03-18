@@ -1,14 +1,17 @@
 Package: pagerank
 Type: Package
 Title: Computes Pagerank of CRAN Packages
-Version: 0.0.1
-Author: Andrie de Vries
-Maintainer: Andrie de Vries <apdevries@gmail.com>
 Description: Computes pagerank of CRAN packages, based on the dependency
     structure.
+Version: 0.0.1
+Date: 2016-03-18
+Author: Andrie de Vries
+Maintainer: Andrie de Vries <apdevries@gmail.com>
 License: GPL2
 LazyData: TRUE
 Imports:
+    utils,
     miniCRAN,
-    igraph
+    igraph,
+    memoise
 RoxygenNote: 5.0.1
